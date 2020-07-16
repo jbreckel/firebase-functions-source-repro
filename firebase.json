@@ -1,0 +1,9 @@
+{
+  "functions": {
+    "source": "firebase",
+    "predeploy": [
+      "yarn --cwd \"$RESOURCE_DIR\" lint",
+      "yarn --cwd \"$RESOURCE_DIR\" build"
+    ]
+  }
+}
